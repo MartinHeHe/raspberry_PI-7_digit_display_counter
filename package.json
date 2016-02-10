@@ -1,0 +1,16 @@
+{
+  "name": "7 led displey demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "onoff": "^1.0.4",
+    "sleep": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Razor",
+  "license": "MIT"
+}

@@ -1,7 +1,8 @@
 // use:
-// var Display = require("./7leddisplay.js")
+// var Display = require("./app.js")
 // var d = new Display();
-// d.count();
+// d.countStart();
+// d.countStop();
 
 function Display(){
   var Gpio = require('onoff').Gpio;
@@ -70,14 +71,6 @@ function Display(){
     clearInterval(this.counter);
     this.inactive();
   }
-
-  //for(var i=0;i<10;i++){
-  //  inactive();
-  //  s.sleep(1);
-  //  active(1);
-  //  s.sleep(1);
-  //  inactive();
-  //}
 }
 
 module.exports = Display;
